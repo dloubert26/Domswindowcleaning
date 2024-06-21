@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background: #1e90ff;
+    color: #fff;
+    text-align: center;
+    padding: 0;  /* Remove padding if needed */
+    margin: 0;  /* Remove margin if needed */
+}
+
+
+header .logo {
+    width: 100%; /* Ensure it fits the width of the page */
+    height: auto; /* Maintain aspect ratio */
+    
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background: #4682b4;
+    width: 100%;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #5a9bd4;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+    padding-bottom: 5rem; /* Add padding at the bottom to ensure space for the footer */
+}
+
+
+section {
+    margin-bottom: 2rem;
+}
+
+
+section#testimonials blockquote {
+    border-left: 5px solid #1e90ff; /* Add a left border to the blockquote */
+    padding-left: 10px; /* Padding for the blockquote */
+    margin: 1rem 0; /* Margin around the blockquote */
+    font-style: italic; /* Italicize the text */
+    position: relative; /* Ensure proper positioning of the footer */
+}
+
+section#testimonials blockquote footer {
+    display: block; /* Ensure footer is displayed as a block */
+    margin-top: 10px; /* Space between the quote and the footer */
+    font-weight: bold; /* Bold the footer text */
+    color: #555; /* Color for the footer text */
+}
+
+section#testimonials blockquote .rating {
+    margin-top: 5px; /* Space between the footer and the rating */
+    color: gold; /* Gold color for the stars */
+    font-size: 1.2rem; /* Increase size of the stars */
+}
+
+footer {
+    background: #4682b4;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.7rem;
+    background: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+section#services {
+    padding: 2rem;
+}
+
+section#services h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+section#services p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-align: center; /* Center text within each service */
+}
+
+.service img {
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px; /* Space between text and image */
+}
+
+.service-images img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.service h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.service p {
+    margin: 0;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #1e90ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    background: #5a9bd4;
+}
+
+
+section#about {
+    display: flex; /* Use flexbox to place the image and text side by side */
+    align-items: center; /* Center items vertically */
+}
+
+section#about img {
+    max-width: 200px; /* Set maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and text */
+}
+
+section#about h2, section#about p {
+    margin: 0; /* Remove default margins */
+    margin-bottom: 1rem;
+}
+
